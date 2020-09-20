@@ -11,7 +11,7 @@ A JWT is basically a signed JSON object, hence allowing us to send custom info i
 A JWE is essentially an encrypted JWT. In our case asymmetrically encrypted the following way:
 
 1. Take the payload
-    ``` json
+    ``` yaml
     {
         "sub": "123",
         "aud": "someClient",
