@@ -1,4 +1,5 @@
 ## Encrypted JWT on server
+
 Template implementation of Encrypted JWT authentication on a node server
 
 ## Introduction
@@ -82,3 +83,7 @@ To refresh all sessions and use new server generated keys upon each reboot, set 
 ### Jose
 PRESERVE_SESSIONS_ON_REBOOT=0
 ```
+
+## Credits
+
+Credits to [@panva](https://github.com/panva) for his awesome [jose](https://github.com/panva/jose) module.
