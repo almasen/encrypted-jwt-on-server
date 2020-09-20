@@ -1,0 +1,37 @@
+{
+    "name": "encrypted-jwt-on-server",
+    "version": "1.0.3",
+    "description": "Template implementation of using Encrypted JWT Authentication on a nodeJS Server",
+    "author": {
+        "name": "Daniel Almasi",
+        "email": "daniel@almasi.dev",
+        "url": "https://github.com/almasen"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "jest -i",
+        "docs": "jsdoc -r -c ./jsdoc/.jsdocrc.json ./modules"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "jose": "^1.28.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.9.0",
+        "eslint-config-google": "^0.14.0",
+        "jest": "^26.4.2",
+        "jsdoc": "^3.6.6",
+        "js-base64": "^3.5.2"
+    },
+    "jest": {
+        "collectCoverage": true,
+        "coverageReporters": [
+            "json",
+            "html",
+            "json-summary"
+        ],
+        "setupFilesAfterEnv": [
+            "./test/setup"
+        ]
+    }
+}
