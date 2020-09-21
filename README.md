@@ -4,7 +4,7 @@ Template implementation of Encrypted JWT authentication on a node server
 
 ## Introduction
 
-### A (really) high level overview of using an encrypted JWT i.e. a JWE for authentication
+### A (really) high-level overview of using an encrypted JWT i.e. a JWE for authentication
 A JWT is basically a signed JSON object, hence allowing us to send custom info in an object with a signature that verifies both the contents and the sender. You can check out an example [here](https://jwt.io/#debugger-io?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaXNzIjoiaHR0cHM6Ly9leGFtcGxlLmNvbSIsImF1ZCI6IlhZQ2xpZW50IiwiaWF0IjoxNTE2MjM5MDIyfQ.u7uTfEPcDsTICj5C_ABMzfFCpT8OtNr1IP2NiZ4M8f0tC-a50gAku4xgGm2v-G0r2jIhwW_9W2yLH3COSpz8UA&publicKey=-----BEGIN%20PUBLIC%20KEY-----%0AMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEVs%2Fo5%2BuQbTjL3chynL4wXgUg2R9%0Aq9UU8I5mEovUf86QZ7kOBIjJwqnzD1omageEHWwHdBO6B%2BdFabmdT9POxg%3D%3D%0A-----END%20PUBLIC%20KEY-----).
 
 #### server > client
